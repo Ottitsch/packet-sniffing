@@ -21,8 +21,8 @@ Finally, I want to credit sch-28 for making this project open-source, allowing m
 ## Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/packet-analyzer.git
-   cd packet-analyzer
+   git clone https://github.com/ottitsch/packet_sniffing.git
+   cd packet_sniffing
    ```
 2. Install dependencies:
    ```sh
