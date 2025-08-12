@@ -2,11 +2,11 @@
 Breaking Down Ikusa Logger to Its Core
 
 ## Context:
-Ikusa Logger is a full-stack application that logs combat messages from Black Desert Online and saves the data in a file. This file can then be manually uploaded to [Ikusa](https://ikusa.site/) to visualize players' performance.
+Ikusa Logger is a full stack application that logs combat messages from Black Desert Online and saves the data in a file. This file can then be manually uploaded to [Ikusa](https://ikusa.site/) to visualize players' performance.
 
 When Ikusa Logger was first released by sch-28 on GitHub, I was immediately impressed. Since Black Desert Online encrypts all its packets, extracting meaningful data is a significant challenge.
 
-After reviewing the original Svelte-based application's source code, I uncovered a crucial Python script buried within, that makes all of this possible. I'd like to highlight the key functionality of data extraction by sharing a refactored version of that key feature, which improves efficiency reducing the worst case time complexity from O(n²) to O(n) for better performance.
+After reviewing the original Svelte based application's source code, I uncovered a crucial Python script buried within, that makes all of this possible. I'd like to highlight the key functionality of data extraction by sharing a refactored version of that key feature, which improves efficiency reducing the worst case time complexity from O(n²) to O(n) for better performance.
 
 [Refactored](refactor.py) vs. [Original Code](original.py)
 
